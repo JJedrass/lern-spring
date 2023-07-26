@@ -1,11 +1,8 @@
-package com.wasiniewski.learnspring;
+package com.wasiniewski.game;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.wasiniewski.game.GameRunner;
-import com.wasiniewski.game.GamingConsole;
 
 @Configuration
 @ComponentScan("com.wasiniewski.game")
